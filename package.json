@@ -1,0 +1,40 @@
+{
+  "name": "todo-list",
+  "version": "1.0.0",
+  "description": "create a simple todo-list app using RTK and React",
+  "scripts": {
+    "start": "npx parcel index.html",
+    "build": "npx parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Preethi-Dev/Todo-List-Using-RTK-Query.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "RTKQuery"
+  ],
+  "author": "Preethi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Preethi-Dev/Todo-List-Using-RTK-Query/issues"
+  },
+  "homepage": "https://github.com/Preethi-Dev/Todo-List-Using-RTK-Query#readme",
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "postcss": "^8.4.33",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^9.1.0"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
