@@ -1,14 +1,12 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
-import Body from "./components/Body";
+import TodoList from "./features/todos/TodoList";
 
 const App = () => {
   return (
     <>
-      <Body />
+      <TodoList />
     </>
   );
 };
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<App />);
+export default App;
